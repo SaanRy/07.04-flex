@@ -1,20 +1,258 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 }
 
 
-body{
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    font-size: 0;
 
 }
-.header{
+
+.btn {
+    background-color: transparent;
+    border: none;
+
+}
+
+.grid {
+    width: 1200px;
+}
+
+/* Header */
+.header {
     background-color: rgba(6, 20, 32, 1);
     display: flex;
+    justify-content: space-between;
+}
+
+.header__left {
+    display: flex;
+}
+
+
+.header__rigth {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menue__list {
+    display: none;
+    list-style: none;
+    color: #ffffff;
+    font-size: 20px;
 
 }
-.header__banner{
+
+/* End Header */
+/* Hero */
+
+
+.hero {
     background-image: url(../img/ТРЦ_Hollywood.jpg);
     background-position: center;
     background-size: cover;
+    color: #ffffff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 69px;
+
 }
+
+.hero_descr {
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 103px;
+
+}
+
+.hero__title {
+    padding-top: 33px;
+    font-size: 100px;
+    font-weight: 600;
+}
+
+.hero__left {
+    text-align: left;
+}
+
+.hero__contact {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 43px;
+
+}
+
+.hero__rigth {
+    text-align: right;
+}
+
+.hero_contacts {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.hero_contacts--small {
+    font-size: 18px;
+    font-weight: 200;
+    padding-top: 10px;
+}
+
+/* End hero */
+
+
+/* Nav Date */
+
+.nav-date {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background: #E5E5E5;
+    padding: 79px 0 21px 0;
+}
+
+
+
+.nav-date__titile {
+
+    font-size: 52px;
+    line-height: normal;
+    color: #393939;
+    margin-bottom: 49px;
+}
+
+.nav-date__list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+
+
+}
+
+.nav-date__link {
+    font-size: 18px;
+    line-height: normal;
+    color: #188CEF;
+}
+
+.nav-date__link:active {
+    color: #2B3944;
+
+}
+
+.nav-date__item {
+    position: relative;
+}
+
+.nav-date__item:hover:after {
+    content: "";
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid red;
+    position: absolute;
+    right: 0;
+    top: 45px;
+
+}
+
+.link__text {
+    display: block;
+    font-size: 13px;
+    line-height: normal;
+    letter-spacing: -0.01em;
+    color: #8599AA;
+
+}
+
+/* End Nav Date */
+
+/* Films */
+.current_films {
+    display: flex;
+    justify-content: center;
+    padding: 19px 0 44px 0;
+
+}
+
+.film__select {
+    border-radius: 20px;
+    margin-bottom: 72px;
+}
+
+.film__hint {
+
+    margin-bottom: 39px;
+    font-size: 16px;
+    font-weight: 400;
+    color: red;
+}
+
+.film__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.film__item {
+    display: flex;
+    width: 50%;
+    margin-bottom: 30PX;
+
+
+}
+
+
+.film__img {
+    display: flex;
+}
+
+.film_time {
+    padding-left: 21px;
+}
+
+.film__name {
+    font-size: 24px;
+    line-height: normal;
+    color: #2B3944;
+    padding-bottom: 23px;
+
+}
+
+.time__box {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.time__item {
+    margin-bottom: 14px;
+    padding-right: 15px;
+    text-align: center;
+    
+}
+
+.time__link {
+    font-size: 18px;
+    line-height: normal;
+    color: #188CEF;
+}
+
+.time__link--3D:after {
+    content: '3D';
+    display: block;
+    font-size: 13px;
+    line-height: normal;
+    letter-spacing: -0.01em;
+    color: #8599AA;
+}
+
+
+/* End films */

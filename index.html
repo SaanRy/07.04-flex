@@ -2,8 +2,11 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
 
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 
@@ -11,29 +14,221 @@
 
     <header class="header">
 
-            <div class="header_left">
+        <div class="header_left">
+            <img src="img/preloader_dt.png" alt="" class="header-nav__item">
+            <img src="img/menu-triple-line.png" alt="" class="header-nav__item">
 
-                <img src="img/preloader_dt.png" alt="" class="header-nav__item">
-                <img src="img/menu-triple-line.png" alt="" class="header-nav__item">
+        </div>
+        <div class="header__rigth">
+            <button class="header_btnmenue btn">
+                <img src="img/Page 2.png" alt="">
+                <ul class="menue__list">
+                    <li class="menue__item"><a href="">1</a></li>
+                    <li class="menue__item"><a href="">2</a></li>
+                    <li class="menue__item"><a href="">3</a></li>
+                </ul>
+            </button>
+            <button class="header_btnmenue btn">
+                <img src="img/Page 1.png" alt="">
+            </button>
+            <div class="header__menue">
 
             </div>
-<div class="header__rigth">
-    ul.
-</div>
-        </nav>
-        <div class="header__banner">
-            <p>Кинотеатр MULTIPLEX в</p>
-            <h1>ТРЦ "Hollywood"</h1>
-            <div>
-                <p>ул. 77-й Гвардейськой дивизии, 1В</p><span>Чернигов </span>
-            </div>
-            <div>
-                <p>0 800 505 333 </p>
-                <span> Контакт-центр </span>
+
+
+
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="grid">
+
+            <p class="hero_descr">Кинотеатр MULTIPLEX в</p>
+            <h1 class="hero__title">ТРЦ "Hollywood"</h1>
+            <div class="hero__contact">
+                <div class="hero__left">
+                    <p class="hero_contacts">ул. 77-й Гвардейськой дивизии, 1В</p>
+                    <span class="hero_contacts--small">
+                        Чернигов
+                    </span>
+                </div>
+                <div class="hero__rigth">
+                    <p class="hero_contacts">0 800 505 333 </p>
+                    <span class="hero_contacts--small"> Контакт-центр </span>
+                </div>
             </div>
         </div>
-  
 
+    </div>
+
+
+
+    <nav class="nav-date">
+
+        <div class="grid">
+            <h2 class="nav-date__titile">Расписание сеансов</h2>
+            <ul class="nav-date__list">
+                <li class="nav-date__item"><a href="#" class="nav-date__link">1 февраля
+                        <span class="link__text"> dfghjk</span>
+                    </a></li>
+                <li class="nav-date__item"><a href="#" class="nav-date__link">2 февраля<span class="link__text">
+                            dfghjk</span></a></li>
+                <li class="nav-date__item"><a href="#" class="nav-date__link">3 февраля<span class="link__text">
+                            dfghjk</span></a></li>
+                <li class="nav-date__item"><a href="#" class="nav-date__link">4 февраля<span class="link__text">
+                            dfghjk</span></a></li>
+                <li class="nav-date__item"><a href="#" class="nav-date__link">5 февраля<span class="link__text">
+                            dfghjk</span></a></li>
+                <li class="nav-date__item"><a href="#" class="nav-date__link">6 февраля<span class="link__text">
+                            dfghjk</span></a></li>
+                <li class="nav-date__item"><a href="#" class="nav-date__link">7 февраля<span class="link__text">
+                            dfghjk</span></a></li>
+                <li class="nav-date__item"><a href="#" class="nav-date__link">8 февраля<span class="link__text">
+                            dfghjk</span></a></li>
+            </ul>
+
+        </div>
+
+    </nav>
+
+    <div class="current_films">
+        <div class="grid">
+
+            <select class="film__select">
+
+                <option value="1" selected disabled>Все форматы</option>
+                <option value="1">3D</option>
+                <option value="2">2D</option>
+            </select>
+            <p class="film__hint">Нажмите на время сеанса, чтобы выбрать места
+
+            </p>
+
+            <ul class="film__list">
+                <li class="film__item">
+                    <div class="film__img"><img src="img/film1.jpg" alt="">
+                    </div>
+                    <div class="film_time">
+                        <h4 class="film__name">Алита: Боевой ангел</h4>
+                        <ul class="time__box">
+
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">01:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">02:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">03:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link ">04:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">05:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">06:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link ">07:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">08:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">09:00</a></li>
+
+                        </ul>
+                    </div>
+
+                </li>
+                <li class="film__item">
+                    <div class="film__img"><img src="img/film2.jpg" alt="">
+                    </div>
+                    <div class="film_time">
+                        <h4 class="film__name">Алита: Боевой ангел</h4>
+                        <ul class="time__box">
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">01:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">02:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">03:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link ">04:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">05:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">06:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link ">07:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">08:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">09:00</a></li>
+
+                        </ul>
+                    </div>
+
+                </li>
+                <li class="film__item">
+                    <div class="film__img"><img src="img/film2.jpg" alt="">
+                    </div>
+                    <div class="film_time">
+                        <h4 class="film__name">Алита: Боевой ангел</h4>
+                        <ul class="time__box">
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">01:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">02:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">03:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link ">04:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">05:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">06:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link ">07:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">08:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">09:00</a></li>
+
+                        </ul>
+                    </div>
+
+                </li>
+                <li class="film__item">
+                    <div class="film__img"><img src="img/film2.jpg" alt="">
+                    </div>
+                    <div class="film_time">
+                        <h4 class="film__name">Алита: Боевой ангел</h4>
+                        <ul class="time__box">
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">01:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">02:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">03:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link ">04:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">05:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">06:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link ">07:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">08:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">09:00</a></li>
+
+                        </ul>
+                    </div>
+
+                </li>
+                <li class="film__item">
+                    <div class="film__img"><img src="img/film2.jpg" alt="">
+                    </div>
+                    <div class="film_time">
+                        <h4 class="film__name">Алита: Боевой ангел</h4>
+                        <ul class="time__box">
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">01:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">02:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">03:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link ">04:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">05:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">06:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link ">07:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">08:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">09:00</a></li>
+
+                        </ul>
+                    </div>
+
+                </li>
+                <li class="film__item">
+                    <div class="film__img"><img src="img/film2.jpg" alt="">
+                    </div>
+                    <div class="film_time">
+                        <h4 class="film__name">Алита: Боевой ангел</h4>
+                        <ul class="time__box">
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">01:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">02:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">03:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link ">04:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">05:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">06:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link ">07:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">08:00</a></li>
+                            <li class="time__item"><a href="#" class="time__link time__link--3D">09:00</a></li>
+
+                        </ul>
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+    </div>
 </body>
 
 </html>
