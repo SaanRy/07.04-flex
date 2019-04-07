@@ -9,7 +9,12 @@ body{
 
 }
 .header{
-    background-color: #061420;
+    background-color: rgba(6, 20, 32, 1);
     display: flex;
-    
+
+}
+.header__banner{
+    background-image: url(../img/ТРЦ\ _Hollywood_.jpg);
+    background-position: center;
+    background-size: cover;
 }
